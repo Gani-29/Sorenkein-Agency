@@ -7,8 +7,9 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-white tracking-wide">
-          Sorenkein
+        <h1 className="text-2xl font-bold tracking-wide">
+          <span className="text-white">Sorenkein</span>{" "}
+          <span className="text-red-600">Agency</span>
         </h1>
 
         {/* Menu */}

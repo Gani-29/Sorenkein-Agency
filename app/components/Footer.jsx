@@ -127,12 +127,12 @@ export default function Footer() {
             </a>
           </div>
 
-          <Link
-            href="/contact"
+          <a
+            href="#contact"
             className="inline-block bg-red-600 px-6 py-3 rounded-full font-semibold hover:scale-105 transition"
           >
             Let’s Talk
-          </Link>
+          </a>
         </div>
       </div>
 
